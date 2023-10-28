@@ -1,8 +1,8 @@
 # Form widget editor
 
-This application is an editor that customizes form elements. The settings are persisted on a database and a HTML file is being generates. In order not to block the main thread, a message is being send to a message broker and a background job is triggered. 
+This application is an editor that customizes form elements. The settings are persisted on a database and an HTML file is generated. In order not to block the main thread, a message is sent to a message broker, and a background job is triggered. 
 
-The application has a list of all your widget and a button where you can navigate and create a new widget. There is also the option ot edit a widget. 
+The application has a list of all your widgets and a button where you can navigate and create a new widget. There is also the option to edit a widget. 
 
 ## Stack
 - NextJS
@@ -27,9 +27,9 @@ In your root folder:
 docker-compose up --build
 ```
 
-**Note:** For ease of use the `.env` file was commited. Usually in such a settings you would have an `.env.example`, letting the user fill them.
+**Note:** For ease of use the `.env` file was committed. Usually, in such a setting, you would have an `.env.example`, letting the user fill it.
 
-This will spin up a NextJS application, a NodeJS server connected to a Postgres database and a Redis server listening to incoming messages. 
+This will spin up a NextJS application, a NodeJS server connected to a Postgres database, and a Redis server listening to incoming messages. 
 
 To view the application head to `localhost:3000`. 
 If you want to view the HTML of a specific widget head to `localhost:4000/preview/widgets/{widget-of-id}`
@@ -44,7 +44,7 @@ psql -h localhost -p 5432 -U johnraptis -d form_widget
 
 
 ## Test
-This application has no tests written due to time limitation.
+This application has no tests written due to time limitations.
 
 ## Author
 John Rapits
