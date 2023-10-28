@@ -1,0 +1,12 @@
+# Node.js & Next.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.DS_Store
+.vscode/
+.idea/
+.cache/
+out/
+dist/
+build/
+coverage/
