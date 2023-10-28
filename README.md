@@ -27,7 +27,7 @@ In your root folder:
 docker-compose up --build
 ```
 
-**Note:** For ease of use the `.env` file was committed. Usually, in such a setting, you would have an `.env.example`, letting the user fill it.
+**Note:** For ease of use the `.env` file was committed. Usually, in such a setting, you would have a `.env.example` that works as a guideline, so the user can create the actual file that is going to be used.
 
 This will spin up a NextJS application, a NodeJS server connected to a Postgres database, and a Redis server listening to incoming messages. 
 
