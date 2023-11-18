@@ -40,12 +40,5 @@ If you want to access the database in the terminal:
 psql -h localhost -p 5432 -U johnraptis -d form_widget
 ```
 
-## Future features
-- Implement Socketio in order to have an indicator of 'processing' in each widget so the user knows that the HTML file is being generated. Right now you have to manually refresh.
-
-
-## Test
-This application has no tests written due to time limitations.
-
 ## Author
 John Rapits
